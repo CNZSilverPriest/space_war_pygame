@@ -23,3 +23,6 @@ Pygame project, a game called space war. The game contains background music and 
 6. When players destroy enemies spaceships, score + 5
 7. When the player hits shield powerups, player shield/health + 30
 8. When the player hits bolt powerups, laser level up, from one slit to two slits
+
+# Environment
+Developed in python 3.7 - pygame, using PyCharm.
