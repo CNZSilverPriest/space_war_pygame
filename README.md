@@ -1,5 +1,5 @@
 # Space War Pygame
-Pygame project, a game called space war. The game contains background music and different sound and visual effects. This 2D game is the best suits for people who has a range of 4+. 
+Pygame project, a game called space war. The game contains background music and different sound and visual effects. This 2D game best suits for people who has aan age range of 4+. 
 
 ## Rules Instructions
 1. Press any key to start the game.
