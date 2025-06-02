@@ -1,28 +1,102 @@
-# Space War Pygame
-Pygame project, a game called space war. The game contains background music and different sound and visual effects. This 2D game best suits for people who has aan age range of 4+. 
+# 🚀 Shoot Them Up
 
-## Rules Instructions
-1. Press any key to start the game.
-2. Press the space key to shoot.
-3. Use left and right arrow keys to move horizontally.
+**"Shoot Them Up"** is a side-scrolling arcade-style space shooter built using Python and Pygame. You play as a lone space pilot defending Earth from a storm of asteroids and alien enemies. Collect power-ups, dodge enemy bullets, and see how long you can survive!
 
-## Additional information
-1. You have a total of 3 lives
-2. The bolt powerups will allow you to have two slits of laser.
-3. The shield powerups will allow you to recover.
-4. The rocks of different sizes have different damage when hits the spaceship you are controlling, try to destroy them before you get damaged.
-5. Your enemies can also fire lasers at you, they can move in different directions, try to destroy your enemies spaceships otherwise they will damage you.
-6. Destroying rocks and enemies will both increase your score, your score is recorded on the top of the screen.
+---
 
-## Damage, scores and powerups table
-1. Player shield/health = 100 per life, players have a total of 3 lives.
-2. When enemy bullet(laser) hits player, player shield/health - 45.
-3. When player hits small rocks(shield/health - 10), mid rocks(shield/health - 30), large rocks(shield/health - 50), largest rock(shield/health - 70).
-4. When a player hits enemy, shield/health - 95.
-5. When player destroy small rocks(score + 10), mid rocks(score + 8), large rocks(score + 4), largest rock(score + 1).
-6. When players destroy enemies spaceships, score + 5.
-7. When the player hits shield powerups, player shield/health + 30.
-8. When the player hits bolt powerups, laser level up, from one slit to two slits.
+## 🎮 Features
 
-## Environment
-Developed in python 3.7 - pygame, using PyCharm.
+* **Player Controls**
+  Move with arrow keys and shoot with the space bar.
+
+* **Enemies & Rocks**
+  Randomly moving enemies and rotating asteroids with varying damage and scores.
+
+* **Power-Ups**
+
+  * **Shield**: Restores your shield (up to 100%).
+  * **Bolt**: Enhances your shooting power temporarily.
+
+* **Explosions**
+  Animated explosions for player, enemies, and objects.
+
+* **Sound Effects & Music**
+  Background music and FX like laser blasts and explosions.
+
+---
+
+## 🕹️ Gameplay Rules
+
+* **Lives**: Start with 3 lives. When your shield hits 0, you lose one life.
+* **Game Over**: The game ends when all lives are lost.
+* **Power-Up Timer**: Bolt power-up lasts 5 seconds.
+* **Scoring**:
+
+  * Rocks: Varying points based on size.
+  * Enemies: Fixed score per enemy type.
+
+---
+
+## 📁 Project Structure
+
+```
+ShootThemUp/
+├── image/
+│   ├── playerShip1_orange.png
+│   ├── background.jpg
+│   ├── enemies/
+│   ├── rock/
+│   ├── explosion/
+│   └── powerups/
+├── sound/
+│   ├── background.mp3
+│   ├── explosion.wav
+│   └── laser.ogg
+├── main.py
+└── README.md
+```
+
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+* Python 3.x
+* Pygame
+
+### Installation
+
+```bash
+pip install pygame
+```
+
+### Run the Game
+
+```bash
+python main.py
+```
+
+---
+
+## 🚧 Known Bugs / To-Do
+
+* Occasionally enemy bullets pass through the player without collision.
+* Add more enemy types and attack patterns.
+* Implement high score tracking.
+
+---
+
+
+## 💡 Credits
+
+* Built with ❤️ using [Pygame](https://www.pygame.org/news)
+* Art and sound from royalty-free online assets (OpenGameArt, Kenney Assets, etc.)
+
+---
+
+## 📜 License
+
+This project is open-source and free to use under the MIT License.
+
+
