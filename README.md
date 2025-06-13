@@ -1,6 +1,6 @@
 # 🚀 Shoot Them Up
 
-**"Shoot Them Up"** is a side-scrolling arcade-style space shooter built using Python and Pygame. You play as a lone space pilot defending Earth from a storm of asteroids and alien enemies. Collect power-ups, dodge enemy bullets, and see how long you can survive!
+**"Shoot Them Up"** is a side-scrolling arcade-style space shooter built using Python and Pygame. You play as a lone space pilot defending Earth from a storm of asteroids and alien enemies. Collect power-ups, dodge enemy bullets, and see how long you can survive! 
 
 ---
 
